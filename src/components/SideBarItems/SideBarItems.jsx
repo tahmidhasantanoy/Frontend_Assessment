@@ -3,6 +3,8 @@ import menuIcon3 from "../../../public/icons/menu2.jpg";
 import { IoSearch } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 import Option from "../UI/Option/Option";
+import { MdKeyboardArrowDown } from "react-icons/md";
+import { RiHome3Line } from "react-icons/ri";
 
 const SideBarItems = () => {
   return (
@@ -11,27 +13,17 @@ const SideBarItems = () => {
       <nav className="bg-gray-100 lg:hidden shadow-md w-full">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           {/* Logo */}
-          <div className="text-lg lg:hidden font-bold">Brand</div>
+          <div className="flex items-center text-lg lg:hidden font-semibold">
+            <RiHome3Line className="text-orange-500 mr-5" />
+            Select healthy food
+          </div>
 
           {/* Mobile Menu Button */}
           <label
             htmlFor="desktop-drawer"
             className="lg:hidden block cursor-pointer p-2 border rounded-md"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
+            <MdKeyboardArrowDown /> {/* Down arrow */}
           </label>
         </div>
       </nav>

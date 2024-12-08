@@ -5,7 +5,11 @@ This is a React application built using [Vite](https://vitejs.dev/), designed fo
 ## Features
 
 - **Fast development** with Vite's hot module replacement (HMR)
-- Modern JavaScript and CSS support
+- User can see What are benefit of fruits & Vegetables.
+- Beautiful search option.
+- User friendly User Interface.
+- Social Media access option.
+- Modern JavaScript with react and CSS support
 - Tailwind CSS integration (if used)
 - Optimized production build
 
